@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Botton = () => {
+const Botton = ({ text }) => { // Adicionado um parâmetro 'text'
   const style = {
     width: '348px',
     height: '48px',
@@ -18,12 +18,16 @@ const Botton = () => {
     textAlign: 'center',
     color: '#FFF',
     fontSize: '16px',
-    margin: '-25vh auto 0', 
+    margin: '-22vh 0 0 0', // Ajustado para alinhar à esquerda
+    marginLeft:'2vh',
   };
+
   return (
     <div style={style}>
-      Minhas Vistorias
+      {text} {/* Renderiza o texto recebido como propriedade */}
     </div>
   );
 };
+
 export default Botton;
+

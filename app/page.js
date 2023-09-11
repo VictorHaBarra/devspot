@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Header text="Home"/>
       <CustomComponent />
-      <Botton /> 
+      <Botton text= "Botão" /> 
       <Fundomain />
       <Icons />
       

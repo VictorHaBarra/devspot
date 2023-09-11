@@ -30,7 +30,7 @@ const Retangulo = () => {
   return (
     <div style={containerStyle}>
       <div style={style}>
-        <span>Gabriel Toledo</span>
+        <span>Cliente</span>
       </div>
     </div>
   );
